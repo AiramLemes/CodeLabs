@@ -21,7 +21,14 @@ class MainActivity : AppCompatActivity() {
         val rollButton: Button = findViewById(R.id.roll_button)
         rollButton.setOnClickListener { rollDice() }
 
+        val eraseButton: Button = findViewById(R.id.erase_button)
+        eraseButton.setOnClickListener { eraseDice() }
 
+    }
+
+    private fun eraseDice() {
+        diceImage1.setImageResource(R.drawable.empty_dice)
+        diceImage2.setImageResource(R.drawable.empty_dice)
     }
 
 
