@@ -4,18 +4,19 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
-import android.widget.TextView
-import android.widget.Toast
-import androidx.core.text.isDigitsOnly
+
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var diceImage : ImageView
+    lateinit var diceImage1 : ImageView
+    lateinit var diceImage2 : ImageView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        diceImage = findViewById(R.id.dice_image)
+        diceImage1 = findViewById(R.id.dice_image1)
+        diceImage2 = findViewById(R.id.dice_image2)
 
         val rollButton: Button = findViewById(R.id.roll_button)
         rollButton.setOnClickListener { rollDice() }
@@ -24,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    private fun rollDice() {
+    private fun getRandomDiceImage() : Int {
         val randomInt = (1..6).random()
 
 
@@ -38,6 +39,15 @@ class MainActivity : AppCompatActivity() {
             else -> R.drawable.dice_6
         }
 
-        diceImage.setImageResource(drawableResource)
+        return drawableResource
+
+    }
+
+
+    private fun rollDice() {
+
+        diceImage1.setImageResource(getRandomDiceImage())
+        diceImage2.setImageResource(getRandomDiceImage())
+
     }
 }
