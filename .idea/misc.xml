@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/captura_de_pantalla_2022_11_03_a_las_9_46_27.xml" value="0.2565" />
+        <entry key="app/src/main/res/drawable-v24/captura_de_pantalla_2022_11_03_a_las_9_46_27_adobe_express.xml" value="0.2565" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.139" />
+        <entry key="app/src/main/res/drawable-v24/main_background.xml" value="0.2565" />
+        <entry key="app/src/main/res/drawable/border_radius.xml" value="0.139" />
+        <entry key="app/src/main/res/drawable/borders_radius_log_in.xml" value="0.139" />
+        <entry key="app/src/main/res/drawable/ferni.xml" value="0.2565" />
+        <entry key="app/src/main/res/drawable/ic__2fdb0a2_cf19_4ff1_b672_4c568cf977b2.xml" value="0.2185" />
+        <entry key="app/src/main/res/drawable/ic__9a90d10_2cb4_48fe_83b0_2cd56472b485.xml" value="0.2185" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.139" />
+        <entry key="app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1639892904953146" />
+        <entry key="app/src/main/res/layout-w936dp/activity_login.xml" value="0.16632513661202186" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.23370666503906262" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
